@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 10vh;
+    background-color:#24384B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    
+}
+
+#nav li {
+    display: inline;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#main{
+    background-image: url(hero_image.jpg);
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text{
+    background-color: grey;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+#aboutus{
+    height: 100vh;
+    width: 100%;
+    background-color: #24384b75;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10vh;
+    position: relative;
+
+}
+
+#aboutus-heading{
+    height: 8vh;
+    width: 80%;
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: #24384B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    position: absolute;
+
+}
+
+#aboutus-text{
+    height: 60vh;
+    width: 80%;
+    color: black;
+    background-color: grey;
+    margin-top: 12vh;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: absolute;
+    overflow: auto;
+    z-index: 10;
+}
+
+#aboutus-text::-webkit-scrollbar {
+    width: 12px;
+    z-index: 1;
+}
+
+#aboutus-text::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+    z-index: 1;
+
+}
+
+#aboutus-text::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    z-index: 1;
+
+}
+
+#our-services{
+    height: 100vh;
+    width: 100%;
+    background-color: #24384B;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-text{
+    font-size: 1.4rem;
+    height: 10vh;
+    width: 80%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.services-images{
+    height: 70vh;
+    width: 80%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.img{
+    background-image: url(box6_image.jpg);
+    background-size: cover;
+    height: 40vh;
+    width: 22%;
+}
+
+#contact-us{
+    height: 100vh;
+    width: 100%;
+    background-color: #24384b75;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-heading{
+    height: 10vh;
+    width: 80%;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(62, 62, 62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 10vh;
+}
+
+.contact-container{
+    height: 60vh;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1vh;
+}
+
+.contact-form{
+    height: 100%;
+    width: 50%;
+    padding-right: 10px;
+    border-right: 5px solid black;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(62, 62, 62) ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.contact-map{
+    height: 100%;
+    width: 50%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+iframe{
+    height: 80%;
+    width: 100%;
+}
+
+#footer{
+    height: 10vh;
+    width: 100%;
+    background-color:  rgb(62, 62, 62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
